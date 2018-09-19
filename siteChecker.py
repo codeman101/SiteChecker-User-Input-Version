@@ -43,6 +43,10 @@ def searcherAndChecker(query):
             result = int(jReport['positives'])  # check if the scanned site was detected to have any viruses
             if result > 0:
                 print("the site " + str(urls[counter]) + "was detected by one of the scanners to have a virsus")
+				f = open('links.txt', 'a')
+				f.write(str(urls[counter]))
+				f.write('\n')
+				f.close()
             counter += 1
         except:  # request lib failed to translate response to json move to the next
             counter += 1
