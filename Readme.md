@@ -4,7 +4,6 @@ to see if any results have viruses. If it gets any positivies it prints a messag
 
 # User input Version?
 This is a user input version of the program. I also have a version of the program where the search queries are generated programmatically at random.
-(currently in development)
 
 # Note to employers 
 
