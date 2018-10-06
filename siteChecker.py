@@ -1,4 +1,29 @@
 #!/usr/bin/python3
+
+
+
+#--------------------------------------------------------------------------------------------------
+# Name: searcherAndChecker
+# 
+# 
+# Arguments:
+# query: string to pass to DuckDuckGo API as a search query
+#
+# 
+#
+# About: Takes search query and passes it to DuckDuckgo API then get search resuts and passes them to
+# VirusTotal's API. If one of the search results was detected by virustotal to have a virus then a message is 
+# printed to the user containing the URL of the infected site.
+# 
+# code below the function body:
+# Specific to this version the search query is user input from the console.
+# 
+#--------------------------------------------------------------------------------------------------
+
+
+
+
+
 from urllib.request import urlopen
 import json
 import requests
